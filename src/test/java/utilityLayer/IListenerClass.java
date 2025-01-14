@@ -38,6 +38,7 @@ public class IListenerClass implements ITestListener {
         log.info("Test {} satisfactorio", result.getMethod().getMethodName());
     }
 
+
     @Override
     public void onTestFailure(ITestResult result) {
         try {
@@ -45,7 +46,6 @@ public class IListenerClass implements ITestListener {
             log.error("La url validada no es correcta.{}", DemoQaWebTablesTest.driver.getCurrentUrl());
         } catch (IOException e) {
             throw new RuntimeException(e);
-        };
-
+        }
     }
 }
