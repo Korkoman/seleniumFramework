@@ -11,6 +11,7 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utilityLayer.exceptionMessages;
+import utilityLayer.ScreenShot;
 
 import java.time.Duration;
 import java.util.List;
@@ -21,6 +22,7 @@ public class DemoqaTextBoxPage {
 
     private WebDriver driver;
     public static final Logger logger = LogManager.getLogger(DemoqaTextBoxPage.class);
+
 
     //TextBoxElements
     @FindBy(xpath = "//*[@id='userName']")

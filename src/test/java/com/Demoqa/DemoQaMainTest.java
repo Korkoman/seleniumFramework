@@ -26,7 +26,7 @@ public class DemoQaMainTest {
 
 
     @BeforeClass
-    public void setUp() {
+    public void setUp() throws IOException {
         logger.trace("Se setea la reportería");
         logger.trace("Se abre el driver");
         IListenerClass.setExtentReport(this.getClass().getSimpleName());

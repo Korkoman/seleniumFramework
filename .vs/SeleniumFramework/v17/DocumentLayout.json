@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n-20240709T135807Z-001\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\src\\main\\java\\utilityLayer\\ScreenShot.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\utilityLayer\\ScreenShot.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\src\\main\\java\\modelos\\Usuario.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\modelos\\Usuario.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScreenShot.java",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\src\\main\\java\\utilityLayer\\ScreenShot.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\utilityLayer\\ScreenShot.java",
+              "ToolTip": "C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\src\\main\\java\\utilityLayer\\ScreenShot.java",
+              "RelativeToolTip": "src\\main\\java\\utilityLayer\\ScreenShot.java",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-01-17T13:37:03.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.java",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\src\\main\\java\\modelos\\Usuario.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\modelos\\Usuario.java",
+              "ToolTip": "C:\\Users\\Alberto\\Programaci\u00F3n y automatizaci\u00F3n\\Archivos de programaci\u00F3n\\Archivos de programaci\u00F3n\\Todo Automatizacion QA\\SeleniumFramework\\src\\main\\java\\modelos\\Usuario.java",
+              "RelativeToolTip": "src\\main\\java\\modelos\\Usuario.java",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-01-17T13:36:47.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

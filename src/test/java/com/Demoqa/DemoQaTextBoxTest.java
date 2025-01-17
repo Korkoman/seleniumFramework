@@ -15,6 +15,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utilityLayer.Reports;
 
+import java.io.IOException;
+
 import static utilityLayer.IListenerClass.extent;
 
 
@@ -28,7 +30,7 @@ public class DemoQaTextBoxTest {
 
 
     @BeforeClass
-    public void setUp() {
+    public void setUp() throws IOException {
         IListenerClass.setExtentReport(this.getClass().getSimpleName());
         driver.get(url);
     }
