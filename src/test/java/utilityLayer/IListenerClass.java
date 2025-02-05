@@ -27,7 +27,6 @@ public class IListenerClass implements ITestListener {
 
     public static void setExtentReport(String clase) throws IOException {
         extent = Reports.setReports(clase);
-        screenShot.screenshots(clase.getClass().getSimpleName());
 
     }
 
@@ -42,14 +41,15 @@ public class IListenerClass implements ITestListener {
     @SneakyThrows
     @Override
     public void onTestSuccess(ITestResult result) {
-       // test.pass("Prueba exitosa!.").addScreenCaptureFromPath(screenShot.takeScreenShot(result.getMethod().getMethodName()));
+       test.pass("Prueba exitosa!.").addScreenCaptureFromPath(screenShot.takeScreenShot(result.getMethod().getMethodName()));
         log.info("Test {} satisfactorio", result.getMethod().getMethodName());
     }
 
 
+    @SneakyThrows
     @Override
     public void onTestFailure(ITestResult result) {
-        // test.fail("La url validada no es correcta.").addScreenCaptureFromPath(screenShot.takeScreenShot(result.getMethod().getMethodName()));
+        test.fail("La url validada no es correcta.").addScreenCaptureFromPath(screenShot.takeScreenShot(result.getMethod().getMethodName()));
         log.error("La url validada no es correcta.{}", DemoQaWebTablesTest.driver.getCurrentUrl());
     }
 }
