@@ -4,15 +4,11 @@ import modelos.Usuario;
 
 import java.io.FileNotFoundException;
 import java.util.List;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-
-
-        List<Usuario> usuarios = LlenarTablaWebTables.readExcelFile();
-
-        for (Usuario usuario : usuarios) {
-            System.out.println(usuario.getNombre() + " " + usuario.getApellido() + " " + usuario.getCorreo() + usuario.getEdad());
-        }
-    }
+        int cosa = (int) (Math.random() * 2);
+        System.out.println(cosa);
+           }
 }
